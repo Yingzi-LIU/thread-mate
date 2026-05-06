@@ -2,7 +2,9 @@
 
 ## Team Name and Team Member Information
 
-[To be added manually later]
+[Ziqi XU](https://github.com/Ziqi418)
+
+[Yingzi LIU](https://github.com/Yingzi-LIU)
 
 ## Project Description
 
@@ -14,11 +16,11 @@ This project addresses the challenge of maintaining focus during information for
 
 ## Source Repository Link
 
-[To be added manually later]
+https://github.com/Yingzi-LIU/thread-mate
 
 ## Demo Video
 
-Recommended length 3–5 minutes. [To be added manually later]
+[LOOM link](https://www.loom.com/share/5f0561c282a04539b05792f992534e3e).
 
 ## Technologies Used
 
