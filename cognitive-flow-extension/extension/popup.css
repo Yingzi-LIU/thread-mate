@@ -1,0 +1,181 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  width: 340px;
+  margin: 0;
+  color: #e2e8f0;
+  background: #0a0618;
+  font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+main {
+  padding: 18px;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 18px;
+}
+
+.brand-mark {
+  width: 7px;
+  height: 34px;
+  border-radius: 999px;
+  background: linear-gradient(180deg, #a5b4fc, #10b981);
+  box-shadow: 0 0 18px rgba(99, 102, 241, 0.35);
+}
+
+h1 {
+  margin: 0;
+  font-size: 17px;
+  line-height: 1.2;
+}
+
+p {
+  margin: 3px 0 0;
+  font-size: 11px;
+  color: rgba(226, 232, 240, 0.48);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  color: rgba(248, 250, 252, 0.88);
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+textarea {
+  width: 100%;
+  resize: vertical;
+  min-height: 84px;
+  border: 1px solid rgba(165, 180, 252, 0.28);
+  border-radius: 8px;
+  padding: 10px 12px;
+  background: rgba(99, 102, 241, 0.1);
+  color: #f8fafc;
+  outline: none;
+  font: inherit;
+  line-height: 1.45;
+}
+
+textarea + label {
+  margin-top: 14px;
+}
+
+.tone-picker {
+  display: grid;
+  gap: 8px;
+  margin: 14px 0 0;
+  padding: 0;
+  border: 0;
+}
+
+.tone-picker legend {
+  margin-bottom: 8px;
+  color: rgba(248, 250, 252, 0.88);
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.tone-card {
+  display: flex;
+  gap: 9px;
+  align-items: flex-start;
+  margin: 0;
+  padding: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.09);
+  border-radius: 9px;
+  background: rgba(255, 255, 255, 0.035);
+  cursor: pointer;
+  text-transform: none;
+  letter-spacing: 0;
+}
+
+.tone-card:has(input:checked) {
+  border-color: rgba(165, 180, 252, 0.45);
+  background: rgba(99, 102, 241, 0.13);
+}
+
+.tone-card input {
+  margin-top: 3px;
+  accent-color: #a5b4fc;
+}
+
+.tone-card strong {
+  display: block;
+  color: rgba(248, 250, 252, 0.92);
+  font-size: 12px;
+}
+
+.tone-card em {
+  display: block;
+  margin-top: 3px;
+  color: rgba(226, 232, 240, 0.5);
+  font-size: 11px;
+  font-style: normal;
+  line-height: 1.35;
+}
+
+.actions {
+  display: flex;
+  gap: 8px;
+  margin-top: 14px;
+}
+
+button {
+  flex: 1;
+  border: 1px solid rgba(99, 102, 241, 0.36);
+  border-radius: 8px;
+  padding: 9px 10px;
+  background: rgba(99, 102, 241, 0.22);
+  color: #f8fafc;
+  cursor: pointer;
+  font-weight: 750;
+}
+
+button.secondary {
+  border-color: rgba(255, 255, 255, 0.11);
+  background: rgba(255, 255, 255, 0.05);
+  color: rgba(226, 232, 240, 0.78);
+}
+
+button.wide {
+  width: 100%;
+  margin-top: 9px;
+}
+
+.status {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 14px;
+  padding: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.035);
+  color: rgba(226, 232, 240, 0.62);
+  font-size: 12px;
+}
+
+#state-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #64748b;
+}
+
+#state-dot.active {
+  background: #10b981;
+  box-shadow: 0 0 12px rgba(16, 185, 129, 0.6);
+}
