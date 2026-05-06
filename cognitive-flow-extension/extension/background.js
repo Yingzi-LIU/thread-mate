@@ -1,6 +1,6 @@
 const API_BASE = 'http://127.0.0.1:8010'
 const APP_API_BASE = 'http://127.0.0.1:8000'
-const DRIFT_SECONDS = 30
+const DRIFT_SECONDS = 10
 const CHECK_INTERVAL_MS = 5000
 
 let activeTabId = null
